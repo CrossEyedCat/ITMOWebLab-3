@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "DS_Pixel";
+    src: url("DS Pixel Cyr Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0983d7;
+    font-family: DS_Pixel, serif;
+}
+
+header {
+    width: 100%;
+    font-size: 250%;
+
+    text-align: center;
+    background-color: #0e539b;
+    border-radius: 10px;
+}
+
+.time-wrapper {
+    height: 500px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 200px;
+    background-color: #32beeb;
+    border-radius: 10px;
+}

@@ -1,0 +1,172 @@
+@font-face {
+    font-family: "DS_Pixel";
+    src: url("DS Pixel Cyr Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #32beeb;
+    font-family: DS_Pixel, serif;
+    border-radius: 10px;
+}
+
+header {
+    width: 100%;
+    font-size: 250%;
+    text-align: center;
+    background-color: #0983d7;
+    border-radius: 10px;
+}
+
+fieldset {
+    width: 500px;
+    font-size: large;
+    display: inline-block;
+    border-color: #0e539b;
+    border-radius: 10px;
+}
+
+legend {
+    text-align: center;
+    font-style: italic;
+}
+
+.result_table {
+    overflow-y: scroll;
+    border-collapse: collapse;
+}
+
+.result_table tr td,
+.result_table tr th {
+    padding: 8px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.result_table thead {
+    background-color: #1f355b;
+}
+
+.result_table tbody tr:nth-child(odd) {
+    background-color: #0e539b;
+}
+
+.result_table tbody tr:nth-child(even) {
+    background-color: #0983d7;
+}
+
+.result_table thead tr:hover,
+.result_table tbody tr:hover {
+    background-color: #32beeb;
+    cursor: pointer;
+}
+
+.form-field {
+    margin-bottom: 3%;
+}
+
+.form-field input[type="text"] {
+    border: 1px solid black;
+    font-size: 85%;
+    border-radius: 10px;
+}
+
+.form-field input[type="radio"] {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid black;
+    appearance: none;
+    cursor: pointer;
+}
+
+.form-field input[type="radio"]:checked {
+    background-color: #0e539b;
+}
+
+.form-field input:focus {
+    outline: none;
+}
+
+.form-field.error input {
+    border-color: red;
+}
+
+.form-field.success input {
+    border-color: green;
+}
+
+.form-field small {
+    color: red;
+}
+
+.submit_buttons input[type="submit"], .submit_buttons input[type="reset"], .submit_buttons input[type="button"] {
+    width: 40%;
+    padding: 1em;
+    margin-left: 0.5em;
+    background: #001eff;
+    border: 1px solid black;
+    color: black;
+    text-transform: uppercase;
+}
+
+.submit_buttons input[type="submit"]:hover, .submit_buttons input[type="reset"]:hover, .submit_buttons input[type="button"]:hover {
+    background: #0983d7;
+    cursor: pointer;
+}
+
+.submit_buttons input[type="submit"]:focus, .submit_buttons input[type="reset"]:focus, .submit_buttons input[type="button"]:focus {
+    outline: none;
+}
+
+.r_buttons {
+    margin-bottom: 3%;
+}
+
+.r_buttons input[type="button"] {
+    width: 35px;
+    height: 25px;
+    margin-left: 0.5em;
+    background: #0983d7;
+    border: 1px solid black;
+    color: black;
+    vertical-align: center;
+    text-transform: uppercase;
+}
+
+.r_buttons input.pressed {
+    background: #0e539b;
+}
+
+.r_buttons input[type="button"]:hover {
+    background: #001eff;
+    cursor: pointer;
+}
+
+.r_buttons input[type="button"]:focus {
+    outline: none;
+}
+
+.data {
+    margin: 20px;
+    align-items: flex-start;
+    display: flex;
+}
+
+.left_data {
+    margin-right: 15px;
+    width: 800px;
+}
+
+.left_data #jxgbox {
+    width: 600px;
+    height: 600px;
+}
+
+.right_data {
+    width: 700px;
+}
